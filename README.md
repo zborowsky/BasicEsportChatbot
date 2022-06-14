@@ -1,46 +1,11 @@
-# The config recipe.
-# https://rasa.com/docs/rasa/model-configuration/
-recipe: default.v1
+# Result of script looks following:
 
-# Configuration for Rasa NLU.
-# https://rasa.com/docs/rasa/nlu/components/
-language: en
+![](chatbot_slack.png?raw=true)
 
-pipeline:
-# # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
-# # If you'd like to customize it, uncomment and adjust the pipeline.
-# # See https://rasa.com/docs/rasa/tuning-your-model for more information.
-#   - name: WhitespaceTokenizer
-#   - name: RegexFeaturizer
-#   - name: LexicalSyntacticFeaturizer
-#   - name: CountVectorsFeaturizer
-#   - name: CountVectorsFeaturizer
-#     analyzer: char_wb
-#     min_ngram: 1
-#     max_ngram: 4
-#   - name: DIETClassifier
-#     epochs: 100
-#     constrain_similarities: true
-#   - name: EntitySynonymMapper
-#   - name: ResponseSelector
-#     epochs: 100
-#     constrain_similarities: true
-#   - name: FallbackClassifier
-#     threshold: 0.3
-#     ambiguity_threshold: 0.1
+# How to integrate it with SLACK
 
-# Configuration for Rasa Core.
-# https://rasa.com/docs/rasa/core/policies/
-policies:
-# # No configuration for policies was provided. The following default policies were used to train your model.
-# # If you'd like to customize them, uncomment and adjust the policies.
-# # See https://rasa.com/docs/rasa/policies for more information.
-#   - name: MemoizationPolicy
-#   - name: RulePolicy
-#   - name: UnexpecTEDIntentPolicy
-#     max_history: 5
-#     epochs: 100
-#   - name: TEDPolicy
-#     max_history: 5
-#     epochs: 100
-#     constrain_similarities: true
+As current my test I was using ngrok there is no possibility to provide live working solution of this chatbot.
+
+To check it out use:
+- https://www.youtube.com/watch?v=2Qu4LCvB4bs&ab_channel=InnovateYourself
+- https://rasa.com/docs/rasa/connectors/slack
