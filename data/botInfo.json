@@ -1,0 +1,51 @@
+{
+  "Tournament": {
+    "Name": "Small League of Legends Tournament",
+    "Info": "Typical 1 of 16 tournament, winner takes all",
+    "Prize": "3000$",
+    "Game": "League of Legends",
+    "Schedule":
+    {
+      "Match1": {
+        "Date": "20-06-2022 16:00",
+        "1": "Empty",
+        "2": "Player2"
+      },
+      "Match2": {
+        "Date": "20-06-2022 18:00",
+        "1": "Player3",
+        "2": "Empty"
+      },
+      "Match3": {
+        "Date": "20-06-2022 20:00",
+        "1": "Empty",
+        "2": "Player6"
+      },
+      "Match4": {
+        "Date": "20-06-2022 22:00",
+        "1": "Player7",
+        "2": "Player8"
+      },
+      "Match5": {
+        "Date": "21-06-2022 16:00",
+        "1": "Player9",
+        "2": "Player10"
+      },
+      "Match6": {
+        "Date": "21-06-2022 18:00",
+        "1": "Player11",
+        "2": "Player12"
+      },
+      "Match7": {
+        "Date": "21-06-2022 20:00",
+        "1": "Player13",
+        "2": "Player14"
+      },
+      "Match8": {
+        "Date": "21-06-2022 22:00",
+        "1": "Player15",
+        "2": "Player16"
+      }
+    }
+  }
+}

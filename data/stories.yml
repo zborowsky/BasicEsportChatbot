@@ -1,0 +1,18 @@
+version: "3.1"
+
+stories:
+
+- story: schedule
+  steps:
+    - intent: show_schedule
+    - action: action_show_schedule
+
+- story: tournament_info
+  steps:
+    - intent: show_info
+    - action: action_show_info
+
+- story: empty_spaces
+  steps:
+    - intent: show_empty_places
+    - action: action_return_empty

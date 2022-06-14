@@ -1,0 +1,15 @@
+version: "3.1"
+
+intents:
+  - show_schedule
+  - show_info
+  - show_empty_places
+
+actions:
+  - action_show_schedule
+  - action_show_info
+  - action_return_empty
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

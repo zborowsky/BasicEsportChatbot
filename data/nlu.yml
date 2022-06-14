@@ -1,0 +1,21 @@
+version: "3.1"
+
+nlu:
+- intent: show_schedule
+  examples: |
+    - schedule
+    - gameplay
+    - playing
+    - ladder
+
+- intent: show_info
+  examples: |
+    - info
+    - prize
+    - tournament
+    - game
+
+- intent: show_empty_places
+  examples: |
+    - empty
+    - places
